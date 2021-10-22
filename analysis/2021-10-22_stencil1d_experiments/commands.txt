@@ -1,0 +1,1 @@
+python3 ./task_bench_to_csv.py --input ../../experiments/2021-10-22_stencil_1d --output 2021-10-22_stencil_1d.csv
