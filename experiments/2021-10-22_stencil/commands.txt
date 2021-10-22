@@ -1,0 +1,21 @@
+BASEDIR=$HOME/task-bench/charm++ sbatch submit_1node.sh 2021-10-22_stencil_1d/output_1node.txt
+  650  cat slurm-93279.out 
+  651  cat 2021-10-22_stencil_1d/output_1node.txt 
+  652  squeue -u zane
+  653  ls
+  654  cat submit_1node.sh >> submit_2node.sh
+  655  vim submit_2node.sh 
+  656  BASEDIR=$HOME/task-bench/charm++ sbatch submit_2node.sh 2021-10-22_stencil_1d/output_2node.txt
+  657  squeue -u zane
+  658  cat submit_2node.sh >> submit_4node.sh
+  659  vim submit_4node.sh 
+  660  BASEDIR=$HOME/task-bench/charm++ sbatch submit_4node.sh 2021-10-22_stencil_1d/output_4node.txt
+  661  squeue -u zane
+  662  cat submit_4node.sh >> submit_8node.sh
+  663  vim submit_8node.sh 
+  664  BASEDIR=$HOME/task-bench/charm++ sbatch submit_8node.sh 2021-10-22_stencil_1d/output_8node.txt
+  665  squeue -u zane
+  666  cat slurm-*
+  667  ls
+  668  ls 2021-10-22_stencil_1d/
+  669  history | tail -n 20 >> commands.txt
