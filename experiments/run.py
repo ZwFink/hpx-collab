@@ -45,9 +45,9 @@ def get_charmrun_command(basedir):
     import os
     # todo: update for SMP compatibility
     ntasks = os.getenv('SLURM_NTASKS')
-    return sh.Command(basedir+'/charmrun')\
-             .bake('+p', ntasks)\
-             .bake(basedir + '/benchmark')
+    return sh.srun.bake('-n', 48, '-c', 1,
+                        basedir + '/benchmark'
+                        )
 
 if __name__ == '__main__':
     main()
