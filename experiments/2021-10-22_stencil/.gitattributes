@@ -1,0 +1,4 @@
+2021-10-22_stencil_1d/output_8node.txt filter=lfs diff=lfs merge=lfs -text
+2021-10-22_stencil_1d/output_1node.txt filter=lfs diff=lfs merge=lfs -text
+2021-10-22_stencil_1d/output_2node.txt filter=lfs diff=lfs merge=lfs -text
+2021-10-22_stencil_1d/output_4node.txt filter=lfs diff=lfs merge=lfs -text
