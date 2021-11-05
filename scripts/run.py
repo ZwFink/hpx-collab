@@ -54,12 +54,18 @@ def main(**kwargs):
     if not kwargs['run_args_first']:
         base_graph_cmd.append(run_args)
 
-    full_cmd = base_cmd.bake(*base_graph_cmd)
     for tnum in range(kwargs['trials']):
         tstart = time.time()
         random.shuffle(iter_counts)
         for niter in iter_counts:
-            run_cmd = full_cmd.bake('-iter', niter)
+            new_cmd = []
+            # we have to add iter to every graph
+            for i in base_graph_cmd:
+                if i == '-and':
+                    new_cmd.append('-iter')
+                    new_cmd.append(iter)
+                new_cmd.append(i)
+            run_cmd = base_cmd.bake(*new_cmd)
             print('#'+str(run_cmd), file=outf)
             outf.flush()
             run_cmd(_out=outf)
