@@ -22,8 +22,7 @@ import time
               "Currently, only supports executing the same graph n thimes."
               )
 @click.option('--radix', type=int, default=1)
-# TODO: What is a good default for output?
-@click.option('--output', type=int, default=1)
+@click.option('--output', type=int, default=16)
 def main(**kwargs):
     start, stop, step = kwargs['iter']
     iter_counts = [start]
@@ -32,7 +31,9 @@ def main(**kwargs):
         iter_counts.append(iter_counts[-1]*step)
 
     outf = kwargs['output_file']
-    run_args = ' '.join(kwargs['run_args'])
+    run_args = []
+    for a in kwargs['run_args']:
+        run_args += a.split()
     base_cmd = get_run_cmd(kwargs['basedir'])
     single_graph_cmd = ('-kernel', kwargs['kernel'],
                         '-width', kwargs['width'],
@@ -60,8 +61,8 @@ def main(**kwargs):
         for niter in iter_counts:
             run_cmd = full_cmd.bake('-iter', niter)
             print('#'+str(run_cmd), file=outf)
-            #outf.flush()
-            #run_cmd(_out=outf)
+            outf.flush()
+            run_cmd(_out=outf)
         elapsed = time.time()-tstart
         print(f"Trial {tnum} took {elapsed}s.")
 
@@ -69,7 +70,8 @@ def get_run_cmd(basedir):
     import os
     # todo: update for SMP compatibility
     ntasks = os.getenv('SLURM_NTASKS')
-    return sh.srun.bake('-n', ntasks, '-c', 1,
+    cpus_per_task = os.getenv('SLURM_CPUS_PER_TASK')
+    return sh.srun.bake('-n', ntasks, '-c', cpus_per_task,
                         '--mpi=pmi2',
                         basedir
                         )
