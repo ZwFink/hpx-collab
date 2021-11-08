@@ -40,7 +40,8 @@ def parse_file(f):
                 flops = float(match.groups(1)[0])
                 new_dict = {'CPUS_PER_PROC': cpus_per_proc,
                             'NPROCS': nprocs, 'WIDTH':width,
-                            'NITER':niter,'FLOPS':flops}
+                            'NITER':niter,'FLOPS':flops,
+                            'FILE': f.split('/')[-1]}
                 output.append(new_dict)
     return output
 
