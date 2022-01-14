@@ -1,0 +1,1499 @@
+Fri Jan 14 14:00:35 PST 2022
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+Thread(s) per core:  2
+Core(s) per socket:  16
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               63
+Model name:          Intel(R) Xeon(R) CPU E5-2698 v3 @ 2.30GHz
+Stepping:            2
+CPU MHz:             2301.000
+CPU max MHz:         2301.0000
+CPU min MHz:         1200.0000
+BogoMIPS:            4600.24
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            40960K
+NUMA node0 CPU(s):   0-15,32-47
+NUMA node1 CPU(s):   16-31,48-63
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts md_clear flush_l1d
+using iter: 
+64
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 7.717133e-03
+Time for last run: 6.727934e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 528384000
+Total Bytes 0
+Elapsed Time 6.727934e-03 seconds
+FLOP/s 7.853585e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:00:43 PST 2022
+using iter: 
+512
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.861065e-03
+Time for last run: 7.714033e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 4198400000
+Total Bytes 0
+Elapsed Time 7.714033e-03 seconds
+FLOP/s 5.442549e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:00:51 PST 2022
+using iter: 
+4096
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 2.011085e-02
+Time for last run: 1.901984e-02
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.901984e-02 seconds
+FLOP/s 1.764396e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:00:54 PST 2022
+using iter: 
+32768
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.123710e-01
+Time for last run: 1.120601e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.120601e-01 seconds
+FLOP/s 2.395497e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:01:15 PST 2022
+using iter: 
+262144
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.485379e-01
+Time for last run: 8.523378e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 8.523378e-01 seconds
+FLOP/s 2.519526e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:01:23 PST 2022
+using iter: 
+2097152
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 6.745852e+00
+Time for last run: 6.738930e+00
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 6.738930e+00 seconds
+FLOP/s 2.549347e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:01:43 PST 2022
+using iter: 
+16777216
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 5.384259e+01
+Time for last run: 5.384715e+01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 5.384715e+01 seconds
+FLOP/s 2.552391e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:03:38 PST 2022
+using iter: 
+64
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 7.627964e-03
+Time for last run: 6.705999e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 528384000
+Total Bytes 0
+Elapsed Time 6.705999e-03 seconds
+FLOP/s 7.879273e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:03:44 PST 2022
+using iter: 
+512
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.946896e-03
+Time for last run: 7.873058e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 4198400000
+Total Bytes 0
+Elapsed Time 7.873058e-03 seconds
+FLOP/s 5.332616e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:03:48 PST 2022
+using iter: 
+4096
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 2.020597e-02
+Time for last run: 1.927090e-02
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.927090e-02 seconds
+FLOP/s 1.741410e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:03:53 PST 2022
+using iter: 
+32768
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.124740e-01
+Time for last run: 1.119001e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.119001e-01 seconds
+FLOP/s 2.398922e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:04:03 PST 2022
+using iter: 
+262144
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.488379e-01
+Time for last run: 8.515759e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 8.515759e-01 seconds
+FLOP/s 2.521781e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:04:10 PST 2022
+using iter: 
+2097152
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 6.746309e+00
+Time for last run: 6.741588e+00
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 6.741588e+00 seconds
+FLOP/s 2.548342e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:04:30 PST 2022
+using iter: 
+16777216
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 5.387977e+01
+Time for last run: 5.387886e+01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 5.387886e+01 seconds
+FLOP/s 2.550888e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:23 PST 2022
+using iter: 
+64
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 7.549047e-03
+Time for last run: 6.556034e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 528384000
+Total Bytes 0
+Elapsed Time 6.556034e-03 seconds
+FLOP/s 8.059507e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:30 PST 2022
+using iter: 
+512
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.934975e-03
+Time for last run: 7.740021e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 4198400000
+Total Bytes 0
+Elapsed Time 7.740021e-03 seconds
+FLOP/s 5.424275e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:37 PST 2022
+using iter: 
+4096
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 2.012491e-02
+Time for last run: 1.903510e-02
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.903510e-02 seconds
+FLOP/s 1.762981e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:43 PST 2022
+using iter: 
+32768
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.124380e-01
+Time for last run: 1.109400e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.109400e-01 seconds
+FLOP/s 2.419683e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:47 PST 2022
+using iter: 
+262144
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.486500e-01
+Time for last run: 8.527269e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 8.527269e-01 seconds
+FLOP/s 2.518377e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:06:57 PST 2022
+using iter: 
+2097152
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 6.747339e+00
+Time for last run: 6.740718e+00
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 6.740718e+00 seconds
+FLOP/s 2.548671e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:07:19 PST 2022
+using iter: 
+16777216
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 5.391470e+01
+Time for last run: 5.692478e+01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 5.692478e+01 seconds
+FLOP/s 2.414396e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:19 PST 2022
+using iter: 
+64
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 7.575989e-03
+Time for last run: 6.598949e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 528384000
+Total Bytes 0
+Elapsed Time 6.598949e-03 seconds
+FLOP/s 8.007093e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:27 PST 2022
+using iter: 
+512
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.772135e-03
+Time for last run: 7.730007e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 4198400000
+Total Bytes 0
+Elapsed Time 7.730007e-03 seconds
+FLOP/s 5.431302e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:32 PST 2022
+using iter: 
+4096
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 2.013803e-02
+Time for last run: 1.924181e-02
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.924181e-02 seconds
+FLOP/s 1.744042e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:36 PST 2022
+using iter: 
+32768
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.118541e-01
+Time for last run: 1.108160e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.108160e-01 seconds
+FLOP/s 2.422390e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:41 PST 2022
+using iter: 
+262144
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.489180e-01
+Time for last run: 8.526340e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 8.526340e-01 seconds
+FLOP/s 2.518651e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:09:45 PST 2022
+using iter: 
+2097152
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 6.748363e+00
+Time for last run: 6.743876e+00
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 6.743876e+00 seconds
+FLOP/s 2.547478e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:10:07 PST 2022
+using iter: 
+16777216
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 5.384350e+01
+Time for last run: 5.384843e+01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 5.384843e+01 seconds
+FLOP/s 2.552330e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:01 PST 2022
+using iter: 
+64
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 7.732153e-03
+Time for last run: 6.680012e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 528384000
+Total Bytes 0
+Elapsed Time 6.680012e-03 seconds
+FLOP/s 7.909926e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:07 PST 2022
+using iter: 
+512
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.756161e-03
+Time for last run: 7.732868e-03
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 4198400000
+Total Bytes 0
+Elapsed Time 7.732868e-03 seconds
+FLOP/s 5.429292e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:18 PST 2022
+using iter: 
+4096
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.997495e-02
+Time for last run: 1.913095e-02
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.913095e-02 seconds
+FLOP/s 1.754149e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:24 PST 2022
+using iter: 
+32768
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 1.121359e-01
+Time for last run: 1.122100e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.122100e-01 seconds
+FLOP/s 2.392295e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:28 PST 2022
+using iter: 
+262144
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 8.483140e-01
+Time for last run: 8.523231e-01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 8.523231e-01 seconds
+FLOP/s 2.519570e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:37 PST 2022
+using iter: 
+2097152
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 6.749649e+00
+Time for last run: 6.741291e+00
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 6.741291e+00 seconds
+FLOP/s 2.548454e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:12:57 PST 2022
+using iter: 
+16777216
+Charm++> Running on MPI version: 3.1
+Charm++> level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 64 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-129-g001844861
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Num of PE 64
+Time for last run: 5.385817e+01
+Time for last run: 5.385763e+01
+Total Tasks 64000
+Total Dependencies 189810
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 5.385763e+01 seconds
+FLOP/s 2.551894e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+[Partition 0][Node 0] End of program
+done iter =====================================  
+Fri Jan 14 14:14:55 PST 2022
+complete all runs
+Fri Jan 14 14:14:55 PST 2022
