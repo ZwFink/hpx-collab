@@ -1,0 +1,213 @@
+This script is used to run distributed HPX (plain MPI + fork-join-executor) task bench 4 buran nodes, width 192 fixed width, from 2(6) to 2(24) 
+Tue Dec  7 21:02:21 CST 2021
+using iter: 
+64,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 1585152000
+Total Bytes 0
+Elapsed Time 2.985784e-02 seconds
+FLOP/s 5.308998e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:23 CST 2021
+using iter: 
+512,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 12595200000
+Total Bytes 0
+Elapsed Time 2.083417e-02 seconds
+FLOP/s 6.045454e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:24 CST 2021
+using iter: 
+4096,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 100675584000
+Total Bytes 0
+Elapsed Time 3.075625e-02 seconds
+FLOP/s 3.273338e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:25 CST 2021
+using iter: 
+32768,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 805318656000
+Total Bytes 0
+Elapsed Time 1.071306e-01 seconds
+FLOP/s 7.517164e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:26 CST 2021
+using iter: 
+262144,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6442463232000
+Total Bytes 0
+Elapsed Time 7.291898e-01 seconds
+FLOP/s 8.835098e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:29 CST 2021
+using iter: 
+2097152,
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 51539619840000
+Total Bytes 0
+Elapsed Time 5.417887e+00 seconds
+FLOP/s 9.512863e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:02:41 CST 2021
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 192
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 192000
+Total Dependencies 573426
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 412316872704000
+Total Bytes 0
+Elapsed Time 4.345050e+01 seconds
+FLOP/s 9.489348e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+Tue Dec  7 21:04:09 CST 2021
+Tue Dec  7 21:04:09 CST 2021
