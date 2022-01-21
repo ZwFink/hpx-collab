@@ -1,0 +1,1019 @@
+This script is used to run distributed MPI+OpenMP task bench 2 buran nodes, width 96 fixed width, from 2(6) to 2(24) load imbalance nearest pattern, 5 dependeces/task
+Wed Jan 19 20:29:30 CST 2022
+using iter: 
+64
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 792466048
+Total Bytes 0
+Elapsed Time 3.322026e-02 seconds
+FLOP/s 2.385490e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+512
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6296799872
+Total Bytes 0
+Elapsed Time 3.329332e-02 seconds
+FLOP/s 1.891310e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+4096
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 50331353088
+Total Bytes 0
+Elapsed Time 4.261321e-02 seconds
+FLOP/s 1.181121e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+32768
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 402607825664
+Total Bytes 0
+Elapsed Time 1.172388e-01 seconds
+FLOP/s 3.434084e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+262144
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 3220819623680
+Total Bytes 0
+Elapsed Time 7.236146e-01 seconds
+FLOP/s 4.451015e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+2097152
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 25766514074880
+Total Bytes 0
+Elapsed Time 5.614706e+00 seconds
+FLOP/s 4.589112e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 206132069508736
+Total Bytes 0
+Elapsed Time 4.449602e+01 seconds
+FLOP/s 4.632596e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+64
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 792466048
+Total Bytes 0
+Elapsed Time 3.261040e-02 seconds
+FLOP/s 2.430102e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+512
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6296799872
+Total Bytes 0
+Elapsed Time 3.365867e-02 seconds
+FLOP/s 1.870781e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+4096
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 50331353088
+Total Bytes 0
+Elapsed Time 4.207813e-02 seconds
+FLOP/s 1.196141e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+32768
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 402607825664
+Total Bytes 0
+Elapsed Time 1.161112e-01 seconds
+FLOP/s 3.467433e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+262144
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 3220819623680
+Total Bytes 0
+Elapsed Time 7.245643e-01 seconds
+FLOP/s 4.445181e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+2097152
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 25766514074880
+Total Bytes 0
+Elapsed Time 5.622063e+00 seconds
+FLOP/s 4.583106e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 206132069508736
+Total Bytes 0
+Elapsed Time 4.450807e+01 seconds
+FLOP/s 4.631341e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+64
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 792466048
+Total Bytes 0
+Elapsed Time 3.323067e-02 seconds
+FLOP/s 2.384743e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+512
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6296799872
+Total Bytes 0
+Elapsed Time 4.031927e-02 seconds
+FLOP/s 1.561734e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+4096
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 50331353088
+Total Bytes 0
+Elapsed Time 4.064091e-02 seconds
+FLOP/s 1.238441e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+32768
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 402607825664
+Total Bytes 0
+Elapsed Time 1.161532e-01 seconds
+FLOP/s 3.466180e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+262144
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 3220819623680
+Total Bytes 0
+Elapsed Time 7.241633e-01 seconds
+FLOP/s 4.447643e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+2097152
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 25766514074880
+Total Bytes 0
+Elapsed Time 5.652788e+00 seconds
+FLOP/s 4.558196e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 206132069508736
+Total Bytes 0
+Elapsed Time 4.445055e+01 seconds
+FLOP/s 4.637335e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+64
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 792466048
+Total Bytes 0
+Elapsed Time 3.180216e-02 seconds
+FLOP/s 2.491862e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+512
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6296799872
+Total Bytes 0
+Elapsed Time 3.283169e-02 seconds
+FLOP/s 1.917903e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+4096
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 50331353088
+Total Bytes 0
+Elapsed Time 4.156532e-02 seconds
+FLOP/s 1.210898e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+32768
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 402607825664
+Total Bytes 0
+Elapsed Time 1.161932e-01 seconds
+FLOP/s 3.464986e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+262144
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 3220819623680
+Total Bytes 0
+Elapsed Time 7.251204e-01 seconds
+FLOP/s 4.441772e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+2097152
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 25766514074880
+Total Bytes 0
+Elapsed Time 5.619172e+00 seconds
+FLOP/s 4.585465e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 206132069508736
+Total Bytes 0
+Elapsed Time 4.448708e+01 seconds
+FLOP/s 4.633526e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+64
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 64
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 792466048
+Total Bytes 0
+Elapsed Time 3.212920e-02 seconds
+FLOP/s 2.466498e+10
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+512
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 6296799872
+Total Bytes 0
+Elapsed Time 3.175789e-02 seconds
+FLOP/s 1.982752e+11
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+4096
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 50331353088
+Total Bytes 0
+Elapsed Time 4.013321e-02 seconds
+FLOP/s 1.254107e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+32768
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 402607825664
+Total Bytes 0
+Elapsed Time 1.164879e-01 seconds
+FLOP/s 3.456221e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+262144
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 3220819623680
+Total Bytes 0
+Elapsed Time 7.779906e-01 seconds
+FLOP/s 4.139921e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+2097152
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 25766514074880
+Total Bytes 0
+Elapsed Time 5.572698e+00 seconds
+FLOP/s 4.623706e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+using iter: 
+16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 96
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.100000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 96000
+Total Dependencies 473526
+  Unable to estimate local/nonlocal dependencies
+Total FLOPs 206132069508736
+Total Bytes 0
+Elapsed Time 4.452024e+01 seconds
+FLOP/s 4.630075e+12
+B/s 0.000000e+00
+Transfer (estimated):
+  Unable to estimate local/nonlocal transfer
+done iter =====================================  
+complete all runs
+Wed Jan 19 20:38:12 CST 2022
