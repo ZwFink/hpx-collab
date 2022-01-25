@@ -10,3 +10,9 @@ These experiments were performed on 2022-01-20 to determine the effect of having
 
 
 These are the exact experiments performed on 2022-01-19, but were redone because of the high variability in the measurements taken. Thus, these experiments were performed with 6 iterations instead of 3
+
+
+An additional experimental run was performed after the fact (2022-01-25) that tested the performance of a "slimmed-down" version of Charm++, built in the following manner:
+```bash
+./build charm++ ucx-linux-x86_64 --with-production -j10 --force slurmpmi --basedir=/opt/apps/ucx/1.11.2 -DCMK_NO_MSG_PRIOS=1 -DCSD_NO_IDLE_TRACING=1 -DCSD_NO_PERIODIC=1 -DCSD_NO_SCHEDLOOP=1
+```
