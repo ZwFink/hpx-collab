@@ -25,6 +25,7 @@ def main(input, output):
 def parse_file(f):
     header_re = re.compile('(-n (\d+)) (-c (\d+))[\S\s]+(-width (\d+))[\S\s]+(-iter (\d+))')
     flops_re = re.compile('FLOP\/s (\d+.\d+(e\+\d+){0,1})')
+    elapsed_re = re.compile('Elapsed Time')
     output=list()
     with open(f, 'r') as of:
         for line in of:
@@ -35,12 +36,16 @@ def parse_file(f):
                 cpus_per_proc = int(groups[3])
                 width = int(groups[5])
                 niter = int(groups[7])
+            elif elapsed_re.search(line):
+                line = line.strip().split()
+                t_elapsed = float(line[2])
             elif flops_re.search(line):
                 match = flops_re.search(line)
                 flops = float(match.groups(1)[0])
                 new_dict = {'CPUS_PER_PROC': cpus_per_proc,
                             'NPROCS': nprocs, 'WIDTH':width,
                             'NITER':niter,'FLOPS':flops,
+                            'ELAPSED':t_elapsed,
                             'FILE': f.split('/')[-1]}
                 output.append(new_dict)
     return output
