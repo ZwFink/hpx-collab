@@ -5,7 +5,7 @@
 #SBATCH --partition=buran
 #SBATCH --time=1-18:00:00
 #SBATCH --exclusive
-
+module load openmpi
 nnodes=2
 ppn=1
 odf="$1"
